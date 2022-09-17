@@ -29,7 +29,7 @@ async def wiki(message: types.Message):
     	await message.answer(respond)
     except:
     	await message.answer('Hech qanday mlumot topimadi\nMenimcha imloviy xato qildinggiz🤔')
-    await message.answer('Foydalanganingiz uchun raxmat!\nKanalga obuna bo\'lib oling: @Boburbro_tg\nBosh admin👨‍💻: @Bobur_ON')
+    await message.answer('Foydalanganingiz uchun raxmat!\nKanalga obuna bo\'lib oling: @Boburbro_tg\nBosh admin👨‍💻: @B0987_bot')
     
 
 
