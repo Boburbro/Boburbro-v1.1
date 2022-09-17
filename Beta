@@ -18,7 +18,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
   """
-    await message.reply("Assalomu alaykim!\nMen Vikipedia botman!\nYozining men topib beraman")
+    await message.reply("Assalomu alaykim!\nMen Vikipedia botman!\nYozining men topib beraman.")
 
 
 
@@ -28,8 +28,8 @@ async def wiki(message: types.Message):
     	respond = wikipedia.summary(message.text)
     	await message.answer(respond)
     except:
-    	await message.answer('Hech qanday mlumot topimadi')
-    await message.answer('Foydalanganingiz uchun raxmat\nKanalga obuna bo\'lib oling: @Boburbro_tg\nBosh admin👨‍💻: @Bobur_ON')
+    	await message.answer('Hech qanday mlumot topimadi\nMenimcha imloviy xato qildinggiz🤔')
+    await message.answer('Foydalanganingiz uchun raxmat!\nKanalga obuna bo\'lib oling: @Boburbro_tg\nBosh admin👨‍💻: @Bobur_ON')
     
 
 
